@@ -2,6 +2,9 @@
 {
 }
 
+
+/*background added with text for scrolling purposes and better presentation*/
+
 .welcome-container
 {
         height: 100vh;
@@ -11,6 +14,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -20,4 +27,21 @@
 {
     
 }
+
+/*jumbotron text amend*/
+
+.jumbotron
+{
+    background-color: transparent;
+}
+
+.jumbotron-header
+{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+ 
+    
 
