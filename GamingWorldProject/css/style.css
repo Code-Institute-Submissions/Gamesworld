@@ -1,18 +1,23 @@
 .alert-container
 {
-    
 }
 
-
-/*background added with text for scrolling purposes and better presentation*/
-.text-container
+.welcome-container
 {
-    height: 100vh;
+        height: 100vh;
     
   background: url("../images/bg.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+
+/*background added with text for scrolling purposes and better presentation*/
+
+.text-container
+{
+    
 }
 
