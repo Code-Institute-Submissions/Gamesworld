@@ -179,7 +179,7 @@
 
 /*alert*/
 
-.alert-container.col-12
+.alert-container .col-12
 {
   padding-left: 0;
   padding-right:0;
@@ -188,7 +188,9 @@
 .alert-warning {
   border-radius: 0;
   margin-bottom: 0;
-  padding:5px 15px;
-  background-color: #eec802;
-  border-color: #eec802;
+  padding: 5px 15px;
+  background-color: #56fefe;
+  border-color: #56fffb;
+  color: black;
 }
+
