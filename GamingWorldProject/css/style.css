@@ -21,10 +21,6 @@
 
 /*background added with text for scrolling purposes and better presentation*/
 
-.text-container
-{
-    
-}
 
 /*jumbotron text amend*/
 
@@ -41,10 +37,6 @@
     font-style: italic;
 }
  
-.mk-container
-{
-    
-}
 
 /*navbar colours updated more impact on the main page better colour usage*/
 
@@ -60,17 +52,21 @@
   color: rgb(255, 255, 255);
 }
 
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
 .navbar-light .navbar-text {
   color: rgb(255, 255, 255);
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255);
 }
 
 /*block divider*/
 
-.block-divider
+.block-divider--blue
  {
   width: 30%;
   height: 5px;
