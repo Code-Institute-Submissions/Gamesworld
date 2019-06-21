@@ -114,20 +114,23 @@
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:active
 {
-    color:white;
+    color: white;
+    font-weight: bold;
 }
-
+/*bold text added to the nav bar words improving visibility when clicking*/
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:active,
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover
 {
   color: white;
+  font-weight: bold;
 }
 
 .footer
 {
   position: absolute;
+  font-weight: bold;
 }
 .navbar-light .navbar-brand {
   color: rgb(255, 255, 255);
