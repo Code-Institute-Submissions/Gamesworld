@@ -32,6 +32,17 @@
 }*/
 
 
+
+/*page headers - Amends to the headers and their original set up */
+
+.page-header 
+{
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+
 /*buttons edit*/
 
 .btn--signup {
@@ -160,6 +171,8 @@
   color: rgb(255, 255, 255);
 }
 
+
+
 /*block divider*/
 
 .block-divider--blue
@@ -177,7 +190,9 @@
   border:0;
 }
 
-/*alert*/
+
+
+/*alert - text amends and display including features*/
 
 .alert-container .col-12
 {
