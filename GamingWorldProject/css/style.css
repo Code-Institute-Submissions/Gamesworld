@@ -77,6 +77,17 @@
 
 /*navbar colours updated more impact on the main page better colour usage*/
 
+
+.navbar-container
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+  color: black;
+}
 .bg-light
 {
   background-color: #000000!important;
@@ -114,7 +125,10 @@
   color: white;
 }
 
-
+.footer
+{
+  position: absolute;
+}
 .navbar-light .navbar-brand {
   color: rgb(255, 255, 255);
 }
@@ -141,4 +155,5 @@
 .navbar-light .navbar-toggler {
   color: #ff07ea;
   border-color: #f9f8f4;
+  border:0;
 }
