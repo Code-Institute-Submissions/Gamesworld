@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="/GamingWorldProject/css/style.css" type="text/css">
 </head>
 
@@ -17,12 +17,12 @@
 
 
     <!-- header updated to have a border on the top with gaming world text in capitials removed temporaily-->
-<!--<header class="container">
-    <div class="row" id="header">
-        <div class="text-uppercase">
-            <h1 class="text-uppercase">Gaming World</h1>
-        </div>
-    </div-->
+    <!--<header class="container">
+        <div class="row" id="header">
+            <div class="text-uppercase">
+                <h1 class="text-uppercase">Gaming World</h1>
+            </div>
+        </div-->
 </header>
 <!--navbar work continues to try and get the nav bar displaying as required-->
 
@@ -34,41 +34,43 @@
     <!--Nav-->
             
         <!--ml-auto pushes button to the right-->
-        
         <!--aria accessible rich internet applications-->
+        
+        <!-- amended now displays correctly for the dark bar and navigation button works correctly-->
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/GamingWorldProject/index.html" class="navbar-brand">Gaming World</a>
-        
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-        
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        
-        <ul class="navbar-nav mr-auto">
-            <a class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item dropdown">
+    
+
+        <button class="navbar-toggler ml-auto"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-grip-lines"></i></button>
+
+    
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <a class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Games
-        </a>
+                      Games
+                    </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="mortalkombatx.html">Mortal Kombat X</a>
                         <a class="dropdown-item" href="coming.html">Super Mario</a>
                         <a class="dropdown-item" href="coming.html">Fifa 19</a>
                     </div>
                 </li>
-            <li class="nav-item mr-2"><a class="nav-link" href="media.html">Media</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="news.html">News</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="media.html">Media</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="news.html">News</a></li>
                 <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
             </ul>
-</div>
+        </div>
 <!-- sign up button fixed due to the button not being closed correctly with the A reference -->
 <!-- Main title and text where incorrectly linking to the sign up button </a> inserted to fix the error-->
 
     <div class="d-none d-md-block">
-        <div class="row"></div>
+        <div class="row">
         <p class="navbar-text my-auto mr-2"><i>The Latest Gaming News</i></p>
         </a>
-        <a href="#signupmodal"><button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
+        <a href="#signupmodal"><button class="btn btn-success btn-lg btn--cta btn--pink" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
             </div>
         </div>
     </nav>
@@ -116,7 +118,6 @@ spacing added for the footer to move the detail away from the video clip for mor
         <div class="col my-5">
             <h6 class="text-uppercase">www.Gamesworld.com</h6>
         </div>
-        <div class="row">
         <div class="col my-5">
                     <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook">
                     </i></a>
