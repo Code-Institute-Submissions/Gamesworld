@@ -1,6 +1,4 @@
-.alert-container
-{
-}
+
 
 
 /*background added with text for scrolling purposes and better presentation*/
@@ -46,4 +44,37 @@
 .mk-container
 {
     
+}
+
+/*navbar colours updated more impact on the main page better colour usage*/
+
+.bg-light {
+  background-color: #000000!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: rgba(251, 251, 251, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-text {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/*block divider*/
+
+.block-divider
+ {
+  width: 30%;
+  height: 5px;
+  border: 0;
+  background-color: cyan;
+
 }
