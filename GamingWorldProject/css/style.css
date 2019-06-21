@@ -177,11 +177,25 @@
 
 .block-divider--blue
  {
-  width: 30%;
+  width: 50%;
   height: 5px;
   border: 0;
   background-color: cyan;
 
+}
+
+/*.block-divider--short {
+  height: 5px;
+  border: 0;
+  background-color: cyan;
+}
+*/
+
+/*.content-containers*/
+.content-container
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-light .navbar-toggler {
@@ -209,3 +223,9 @@
   color: black;
 }
 
+.footerbox
+{
+  color:white;
+  background-color: black;
+  padding: 0;
+}
