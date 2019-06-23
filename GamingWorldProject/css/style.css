@@ -237,3 +237,18 @@
   line-height: 40px;
   color: #56fffb;
 }
+
+.navbar-brand
+{
+  color: white;
+}
+
+
+/*tempory code to check scaling
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+*/

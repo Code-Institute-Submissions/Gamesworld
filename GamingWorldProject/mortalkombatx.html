@@ -38,43 +38,46 @@
         
         <!-- amended now displays correctly for the dark bar and navigation button works correctly-->
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/GamingWorldProject/index.html" class="navbar-brand">Gaming World</a>
+        <div class="col">
+            <div class="row">
+                <a href="/GamingWorldProject/index.html" class="navbar-brand">Gaming World</a>
     
-
-        <button class="navbar-toggler ml-auto"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <!--<i class="fas fa-grip-lines"></i></button>-->
-<!-- added the gamepad icon to the corner-->
-
-            <i class="fas fa-gamepad"></i></button>
     
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <a class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Games
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="mortalkombatx.html">Mortal Kombat X</a>
-                        <a class="dropdown-item" href="coming.html">Super Mario</a>
-                        <a class="dropdown-item" href="coming.html">Fifa 19</a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--<i class="fas fa-grip-lines"></i></button>-->
+                <!-- added the gamepad icon to the corner-->
+    
+                <i class="fas fa-gamepad"></i></button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <a class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Games
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="mortalkombatx.html">Mortal Kombat X</a>
+                                <a class="dropdown-item" href="coming.html">Super Mario</a>
+                                <a class="dropdown-item" href="coming.html">Fifa 19</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="media.html">Media</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="news.html">News</a></li>
+                        <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+                    </ul>
+                    <div class="d-none d-md-block">
+                        <div class="navbar-text my-auto mr-2">The Latest Gaming News
+                            </a>
+                            <a href="#signupmodal"><button class="btn btn-success btn-lg btn--cta btn--pink" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
+                        </div>
                     </div>
-                </li>
-                <li class="nav-item mr-2"><a class="nav-link" href="media.html">Media</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="news.html">News</a></li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
-            </ul>
-        </div>
-<!-- sign up button fixed due to the button not being closed correctly with the A reference -->
-<!-- Main title and text where incorrectly linking to the sign up button </a> inserted to fix the error-->
-
-    <div class="d-none d-md-block">
-        <div class="row">
-        <p class="navbar-text my-auto mr-2"><i>The Latest Gaming News</i></p>
-        </a>
-        <a href="#signupmodal"><button class="btn btn-success btn-lg btn--cta btn--pink" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
+                </div>
             </div>
-        </div>
+            </div>
+            <!-- sign up button fixed due to the button not being closed correctly with the A reference -->
+            <!-- Main title and text where incorrectly linking to the sign up button </a> inserted to fix the error-->
+        
     </nav>
   
 <!-- code edited to reflect the changes with the footer -->
@@ -98,24 +101,23 @@
 spacing added for the footer to move the detail away from the video clip for more vision on the detail
 -->
 <footer class="container-fluid footerbox" id="footer">
-    <div class="row">
-        <div class="col mt-3">
-            <h6 class="text-uppercase">www.Gamesworld.com</h6>
-            
-            </div>
-            </div>
-            <div class="container-fluid" id="icons">
-        <div class="col-12">
-                    <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook">
+    <div class="col mt-3">
+        <h6 class="text-uppercase"><a href="/GamingWorldProject/index.html" class="navbar-brand">www.Gamesworld.com</a>
+            </h6>
+    </div>
+
+    <div class="container" id="icons">
+        <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook">
                     </i></a>
-                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-instagram">
+        <a target="_blank" href="https://twitter.com/"><i class="fab fa-instagram">
                     </i></a>
-                    <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-twitter">
+        <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-twitter">
                     </i></a>
-                    <a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube">
+        <a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube">
                     </i></a>
-            </div>
-            </div>
+    </div>
+    </div>
+    </div>
 </footer>
 
 <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
