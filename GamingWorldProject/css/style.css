@@ -91,10 +91,8 @@
 
 /*navbar colours updated more impact on the main page better colour usage*/
 
-
 .navbar-container
 {
-  position: absolute;
   top: 0;
   left: 0;
   padding-left: 0;
@@ -102,6 +100,7 @@
   z-index: 1;
   color: black;
 }
+
 .bg-light
 {
   background-color: #000000!important;
@@ -140,6 +139,7 @@
     font-weight: bold;
 }
 /*bold text added to the nav bar words improving visibility when clicking*/
+
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:active,
 .navbar-light .navbar-brand:focus,
@@ -229,4 +229,11 @@
   background-color: black;
   padding: 0;
   text-align: center;
+}
+
+.footerbox i{
+  margin-bottom:10px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #56fffb;
 }
