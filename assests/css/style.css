@@ -92,7 +92,37 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
     margin-bottom: 30px;
     font-style: italic;
 }
- 
+
+.fa-facebook:before {
+  content: "\f09a";
+  color: #54b1f9;
+  font-size: 31px;
+  padding: 5px;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  color: #54b1f9;
+  font-size: 31px;
+  padding: 5px;
+}
+
+
+
+.fa-twitter:before {
+  content: "\f099";
+  color: #54b1f9;
+  font-size: 31px;
+  padding: 5px;
+}
+
+.fa-youtube:before {
+  font-size: 34px;
+  padding: 6px;
+  color: #4b92ee;
+}
+
+
 
 /*navbar colours updated more impact on the main page better colour usage*/
 
