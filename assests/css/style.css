@@ -9,7 +9,7 @@
 {
         height: 100vh;
     
-  background: url("../images/bg.jpg") no-repeat bottom right fixed; 
+  background: url("../assests/images/bg.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -161,18 +161,19 @@
   position: absolute;
   font-weight: bold;
 }
-.navbar-light .navbar-brand {
+.navbar-light  {
   color: rgb(255, 255, 255);
 }
 
 .navbar-light .navbar-text {
   color: rgb(255, 255, 255);
+  line-height: 50px;
 }
 
 .navbar-light .navbar-brand {
-  color: rgb(255, 255, 255);
+  color: rgba(0,0,0,.9);
+  line-height: 50px;
 }
-
 
 
 /*block divider*/
@@ -204,6 +205,7 @@
   color: #ff07ea;
   border-color: #f9f8f4;
   border:0;
+
 }
 
 
@@ -245,11 +247,15 @@
   color: white;
 }
 
+
 .fifa-container
 {
   align:center;
 }
 
+.gamingworldtitle {
+  color: white;
+}
 
 /*tempory code to check scaling
 * {
