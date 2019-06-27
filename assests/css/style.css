@@ -8,8 +8,11 @@
 .welcome-container
 {
         height: 100vh;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;;
     
-  background: url("../assests/images/bg.jpg") no-repeat bottom right fixed; 
+  /*background: url("/assests/images/bg.jpg") no-repeat bottom right fixed; */
+  background: url("http://getwallpapers.com/wallpaper/full/0/c/b/863522-most-popular-abstract-gaming-wallpapers-1080p-2560x1440-hd-for-mobile.jpg") no-repeat bottom right fixed;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
