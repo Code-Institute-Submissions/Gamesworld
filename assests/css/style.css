@@ -67,11 +67,13 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
     border-color: #f73cff;
 }
 
-.btn--pink{
-    color:white;
-    background-color:#f73cff;
-    border-color: #f73cff;
-    border-radius: 23px;
+
+
+.btn--red {
+  color: white;
+  background-color: #f8061d;
+  border-color: #fb0724;
+  border-radius: 23px;
 }
 
 .btn--pink:hover,
