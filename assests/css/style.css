@@ -10,31 +10,26 @@
         height: 100vh;
 text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;;
     
-  /*background: url("/assests/images/bg.jpg") no-repeat bottom right fixed; */
-  background: url("http://getwallpapers.com/wallpaper/full/0/c/b/863522-most-popular-abstract-gaming-wallpapers-1080p-2560x1440-hd-for-mobile.jpg") no-repeat bottom right fixed;
+
+  background: url("/assests/images/gaming.jpg") no-repeat bottom right fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   
-  position: relative
+  position: relative;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 
-
-/*.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-}*/
 
 
 
@@ -45,6 +40,20 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   margin-bottom: 0;
   border-bottom: 0;
   text-align: center;
+  
+}
+  
+/*Navbar details and amends*/
+
+
+
+.navbar-dark .navbar-text {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255, 1);
+
 }
 
 
@@ -53,7 +62,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 .btn--signup {
     font-weight: bold;
     border-radius: 23px;
-    width: 80px;
+    width: 40px;
     background-color:#f73cff;
     border-color: #f73cff;
 }
@@ -69,7 +78,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 .btn--pink:active,
 .btn--pink:focus,
 .btn--pink:active {
-    background-color:#f73cff;
     border-color: #f73cff;
 }
 
@@ -93,34 +101,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
     font-style: italic;
 }
 
-.fa-facebook:before {
-  content: "\f09a";
-  color: #54b1f9;
-  font-size: 31px;
-  padding: 5px;
-}
 
-.fa-instagram:before {
-  content: "\f16d";
-  color: #54b1f9;
-  font-size: 31px;
-  padding: 5px;
-}
-
-
-
-.fa-twitter:before {
-  content: "\f099";
-  color: #54b1f9;
-  font-size: 31px;
-  padding: 5px;
-}
-
-.fa-youtube:before {
-  font-size: 34px;
-  padding: 6px;
-  color: #4b92ee;
-}
 
 
 
@@ -136,32 +117,29 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   color: black;
 }
 
-.bg-light
+.navbar
 {
-  background-color: #000000!important;
   border-right-width: 0px;
   padding-right: 20px;
   padding-left: 20px;
   font-weight: bold;
-
 }
+
+
 
 .btn--light:hover,
 .btn--light:active,
 .btn--light:focus,
 .btn--light:active
 {
-  background-color: #000000!important;
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .active.nav-link {
-  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -170,7 +148,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:active
 {
-    color: white;
     font-weight: bold;
 }
 /*bold text added to the nav bar words improving visibility when clicking*/
@@ -180,14 +157,13 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover
 {
-  color: white;
   font-weight: bold;
 }
 
 .navbar-light .navbar-text {
-  color: rgb(255, 255, 255);
   font-weight: bold;
 }
+
 
 .footer
 {
@@ -205,7 +181,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 .navbar-light .navbar-brand {
   color: rgba(0,0,0,.9);
-  line-height: 50px;
 }
 
 
@@ -287,7 +262,37 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 }
 
 .gamingworldtitle {
-  color: white;
+  color: red;
+}
+
+
+/*footer details*/
+
+.fa-facebook:before {
+  content: "\f09a";
+  color: #54b1f9;
+  font-size: 31px;
+  padding: 5px;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  color: #54b1f9;
+  font-size: 31px;
+  padding: 5px;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+  color: #54b1f9;
+  font-size: 31px;
+  padding: 5px;
+}
+
+.fa-youtube:before {
+  font-size: 34px;
+  padding: 6px;
+  color: #4b92ee;
 }
 
 /*tempory code to check scaling
