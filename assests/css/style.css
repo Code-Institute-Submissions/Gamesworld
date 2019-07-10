@@ -301,11 +301,11 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   color: #4b92ee;
 }
 
-/*tempory code to check scaling
+/*tempory code to check scaling*/
 * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }
 
-*/
+
