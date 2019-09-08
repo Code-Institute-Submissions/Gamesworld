@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/assests/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assests/css/style.css" type="text/css">
 </head>
 
 
@@ -30,58 +30,60 @@
 <!--header test-->
 
 <body>
-
-    <!--Nav-->
-            
-        <!--ml-auto pushes button to the right-->
-        <!--aria accessible rich internet applications-->
-        
-        <!-- amended now displays correctly for the dark bar and navigation button works correctly-->
-<div class="container mt-5">
-    <nav class="navbar-test navbar-expand-sm fixed-top navbar-light bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Games World</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-                    <span class="fas fa-gamepad"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Games
-            </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="mortalkombat11.html">Mortal Kombat 11</a>
-                            <a class="dropdown-item" href="supermario.html">Super Mario Maker 2</a>
-                            <a class="dropdown-item" href="fifa20.html">Fifa 20</a>
-                        </div>
-                    </li>
+    <body style="background-color: #302547;">
     
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
+    <div class="center">
+  <h1>Gaming World</h1>
+</div>
+
+<!-- Navigation button-->
+
+<div class="navbar">
+  <button class="button" href="#"><i class="fa fa-fw fa-home"></i> Home</button> 
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><i class="fas fa-gamepad"></i> Games</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="mortalkombat11.html">Mortal Kombat 11</a>
+    <a href="supermario.html">Super Mario Maker 2</a>
+    <a href="fifa20.html">Fifa 20</a>
+  </div>
+</div>
+
+            
+<button class="button" href="#"><i class="fa fa-fw fa-envelope"></i> News</button> 
+
+
     
                     <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
-                </ul>
                 <div class="d-none d-md-block">
                     <div class="navbar-text my-auto mr-2">The Latest Gaming News
                         <a href="#signupmodal"><button class="btn btn-success btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+            
+            
+ <div class="container-fluid mk11-title">
+  <h2>MORTAL KOMBAT 11</h2>
+  </div>
+  <div class="row">
+    <div class="col-8">
+    <iframe width="100%" height="800" align="center" style="padding:10px;" src="https://www.youtube.com/embed/7zwQPJmg-Kg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+    <div class="col-4">
+       <section class="mk11">
+        Mortal Kombat is back, and it’s better than ever! It’s time to continue this epic saga as you delve into the cinematic storyline developed by award-winning NetherRealm Studios. Take on a role of past and present characters in a brand-new narrative in
+        Mortal Kombat 11. This new instalment in the series introduces new multiplayer modes, iconic fatalities and an impressive roster of fighters to choose from. Including fan-favourites and new characters, you can pack a punch with one of their powerful
+        abilities and impressive fatalities.
+        </section>
+</div>
+  </div>           
 
 
-
-
-<!-- code edited to reflect the changes with the footer -->
+<!-- code edited to reflect the changes with the footer 
 <div class="container mk-container mt+3">
-    <h1 class="text-uppercase">Mortal Kombat 11</h1>
+    <h1 class="text-uppercase" id="mktitle">Mortal Kombat 11</h1>
     <iframe width="100%" height="400" align="center" style="padding:10px; border:2px solid black;" src="https://www.youtube.com/embed/7zwQPJmg-Kg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
@@ -92,7 +94,7 @@
         abilities and impressive fatalities.
     </P>
 </div>
-
+-->
 
 
 <!-- completed footer and links set up within container working correctly and displaying as required
@@ -118,7 +120,7 @@ spacing added for the footer to move the detail away from the video clip for mor
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h6 class="modal-title">Subscribe to Gaming World - Please note no details will be stored or sent from this sign up section<h6>
+                <h6 class="modal-title">Subscribe to Gaming World - Please note no details will be stored or sent from this sign up section</h6>
                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -144,7 +146,8 @@ spacing added for the footer to move the detail away from the video clip for mor
             </div>
     </div>
 </div>
-
+    </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

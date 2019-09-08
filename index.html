@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/assests/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assests/css/style.css" type="text/css">
 </head>
 
 
@@ -31,73 +31,46 @@
 
 <body>
 
-    <!--Nav-->
 
-        
-        <!--aria accessible rich internet applications-->
-        
-        <!-- amended now displays correctly for the dark bar and navigation button works correctly-->
-            <!--ml-auto pushes button to the right-->
-<div class="container-fluid">
-    <nav class="navbar fixed-top navbar-expand-sm bg-light">
     
-        <div class="container">
-            <a class="navbar-brand" href="#">Games World</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-                <span class="fas fa-gamepad"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Games
-        </a> 
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="mortalkombat11.html">Mortal Kombat 11</a>
-                            <a class="dropdown-item" href="supermario.html">Super Mario Maker 2</a>
-                            <a class="dropdown-item" href="fifa20.html">Fifa 20</a>  
-                    </div>
-                </li>
-                
-                    <li class="nav-item active">
-                        <a class="nav-link" href="news.html">News</a>
-                    </li>
-                    
+
+
+<!-- Navigation button-->
+
+<div class="navbar">
+<button class="button" href="#"><i class="fa fa-fw fa-home"></i> Home</button> 
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><i class="fas fa-gamepad"></i> Games</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="mortalkombat11.html">Mortal Kombat 11</a>
+    <a href="supermario.html">Super Mario Maker 2</a>
+    <a href="fifa20.html">Fifa 20</a>
+  </div>
+</div>
+
+            
+<button class="button" href="#"><i class="fa fa-fw fa-envelope"></i> News</button> 
+
+
+    
                     <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
-                </ul>
                 <div class="d-none d-md-block">
                     <div class="navbar-text my-auto mr-2">The Latest Gaming News
                         <a href="#signupmodal"><button class="btn btn-success btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
                     </div>
                 </div>
-            </div>
-</div>
-</nav>
-</div>
 
-
-<br></br>
-
-
-<!-- main heading centered and highlighted-->
-<!-- added symbol for the welcome to games world title small joypad to make the wording standout-->
-
-<!-- background and welcome message expanded on the main page-->
-<!-- main title container-->
 
     <div class="container-fluid welcome-container">
         <!--<div class="opaque-overlay">&nbsp;</div>-->
             <div class="col page-header">
-                <section class="callout jumbotron text-center">
+
                     <!--gamepad icon added and the icon to be hidden via a mobile viewing of the webpage-->
                     <h1 class="jumbotron-header">Welcome to Gaming World </h1>
-                    <span><i class="fas fa-gamepad d-none d-sm-inline"></i></span>
-                    <br>
+                    <p></p>
+                    <div class="gamepad"><i class="fas fa-gamepad d-none d-sm-inline"></i></div>
+                    <p></p>
                     <h1 class="jumbotron-header">Lets Get Ready To Play</h1>
-                </section>
             </div>
         </div>
 
@@ -157,4 +130,3 @@
 </body>
 
 </html>
-
