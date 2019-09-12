@@ -3,7 +3,7 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 
 This is my gaming website for all users interested in gaming or like to play games. The webpage shows my skills in creating a website design, adding material such as information, features, videos, additional features such as interactive headers and footers. A have attached a link below to the webpage for viewing purposes.
 
-Gaming World - https://clone-may-project-tomod24.c9users.io/GamingWorldProject/index.html
+Gaming World - https://tomod24.github.io/Gamesworld/
 
 UX
 
