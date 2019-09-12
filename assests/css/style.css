@@ -56,6 +56,43 @@
   
 }
 
+/*button style */
+
+.dropbtn {
+  background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg");
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg");
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") ;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") ;}
+
 .btn-group-justified {
   width: 100%;
   table-layout: fixed;
@@ -70,13 +107,14 @@
     float: none;
     display: table-cell;
     width: 1%;
-    background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;;
+    background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
     color: white;
     font-size: 40px;
     z-index: -5;
     font-weight: bold;
     border-radius: 16px;
   }
+
 
 
 .welcome-container
@@ -135,43 +173,9 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   border-radius: 16px;
 }
 
-/*.button:hover {
-  background-color: #f1f1f1;
-}
-*/
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ffc107;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: white;}
 
 /*button styling*/
 .button .dropbtn .dropdown {
@@ -187,34 +191,25 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   border-radius: 16px;
 }
 
-.button:hover {
-  background-color: #f1f1f1;
-}
-
-/*page headers - Amends to the headers and their original set up */
 
 
 
 
-
-
-
-
-.mk11-title
+.games
 {
   text-align:center;
   color:white;
 
 }
 
-.mk11-title
+.games
 
 {
     
   z-index:-1;
 }
 
-.mk11
+.games
 {
   font-size: 24px;
   color:white;
