@@ -1,41 +1,35 @@
 
 /*background added with text for scrolling purposes and better presentation*/
 
+/* Gaming title setting */
 
 
+.maintitle
 
-
-.text-center {
-  text-align: center!important;
-}
-
-
-
-
-
-.gaming_world_title
 {
-  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
-  font-weight: bold;
   text-align: center;
-  display: inline-block;
-  margin: auto;
-  border-radius: 16px;
-  font-size: 40px;
-  z-index: -3;
-  color:white;
-  text-align: center;
+  display:block;
+  margin:0 auto;
+  width: 100%;
   
 }
 
-
-
-/* Gaming title setting */
-
-.text-uppercase {
-  text-transform: uppercase!important;
+.mainbutton
+{
+  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+  font-weight: bold;
+  border-radius: 16px;
+  font-size: 40px;
+  z-index: -3;
+  display:block;
+  margin:0 auto;
+  width: 100%;
   text-align: center;
+  color: white;
+  
+  
 }
+
 
 
 .welcome-container
