@@ -52,10 +52,10 @@ margin: 0;
   
 }
 
+
 .mainbutton
 {
-  /*background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;*/
-  background-color: transparent;
+  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
   font-weight: bold;
   border-radius: 16px;
   font-size: 40px;
@@ -76,7 +76,7 @@ margin: 0;
   border-radius: 16px;
   font-size: 40px;
   z-index: -3;
-  display:block;
+  display:inline;
   margin:0 auto;
   width: 100%;
   text-align: center;
@@ -114,10 +114,12 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 .navbar
 {
-    background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+    background: transparent;
 
 }
-
+.bg-light {
+    background-color: rgba(0,0,0,0)!important;
+}
 
 .gamepad
 {
@@ -127,7 +129,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 /* Button */
 .button, .dropbtn {
-  background-color: white;
+  background-color: transparent;
   border: none;
   color: #302547;
   font-weight: bold;
@@ -145,7 +147,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 /*button styling*/
 .button .dropbtn .dropdown {
-  background-color: #6610f2;
+  background-color: transparent;
   border: none;
   color: black;
   padding: 10px 20px;
