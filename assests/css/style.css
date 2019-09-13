@@ -57,7 +57,7 @@
 }
 
 /*button style */
-
+/*
 .dropbtn {
   background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg");
   color: white;
@@ -76,18 +76,17 @@
   position: absolute;
   background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg");
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: green;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
-.dropdown-content a:hover {background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") ;}
+*/
+.dropdown-content a:hover {background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
@@ -115,24 +114,14 @@
     border-radius: 16px;
   }
 
-.btn-secondary {
-    float: none;
-    display: table-cell;
-    width: 1%;
+.btn-secondary  {
     background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
     color: white;
     font-size: 40px;
     z-index: -5;
     font-weight: bold;
     border-radius: 16px;
-}
-.btn-secondary {    
-      width: 100%;
-  table-layout: fixed;
-  border-collapse: separate;
-  color: white;
-  font-size: 40px;
-  z-index: -3;
+   z-index: -3;
 }
 
 .welcome-container
