@@ -27,6 +27,18 @@
 
 /* code that is here will apply to any screen size */
 
+.body {
+padding: 0;
+margin: 0;
+}
+
+.games
+{
+  background-color: transparent;
+}
+
+
+
 /* Gaming title setting */
 
 
@@ -42,7 +54,8 @@
 
 .mainbutton
 {
-  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+  /*background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;*/
+  background-color: transparent;
   font-weight: bold;
   border-radius: 16px;
   font-size: 40px;
@@ -56,73 +69,19 @@
   
 }
 
-/*button style */
-/*
-.dropbtn {
-  background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg");
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg");
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: green;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-*/
-.dropdown-content a:hover {background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;}
-
-.btn-group-justified {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: separate;
-  color: white;
+ .navbar-light .navbar-nav .nav-link {
+  font-weight: bold;
+  border-radius: 16px;
   font-size: 40px;
   z-index: -3;
-
-  
-}
- .btn-group .btn-group-justified  {
-    float: none;
-    display: table-cell;
-    width: 1%;
-    background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
-    color: white;
-    font-size: 40px;
-    z-index: -5;
-    font-weight: bold;
-    border-radius: 16px;
+  display:block;
+  margin:0 auto;
+  width: 100%;
+  text-align: center;
+  color: white;
   }
-
-.btn-secondary  {
-    background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
-    color: white;
-    font-size: 40px;
-    z-index: -5;
-    font-weight: bold;
-    border-radius: 16px;
-   z-index: -3;
-}
 
 .welcome-container
 {
@@ -269,7 +228,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 .footerbox
 {
   color:white;
-    background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+  background: transparent;
   padding: 0;
   text-align: center;
 }
