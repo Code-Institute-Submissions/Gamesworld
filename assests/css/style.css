@@ -69,19 +69,23 @@ margin: 0;
   
 }
 
-
-
- .navbar-light .navbar-nav .nav-link {
-  font-weight: bold;
-  border-radius: 16px;
+.navbar .navbar-brand
+{
+color: white;
+font-weight: bold;
   font-size: 40px;
   z-index: -3;
-  display:inline;
-  margin:0 auto;
-  width: 100%;
-  text-align: center;
+}
+
+.nav-link
+{
   color: white;
-  }
+  font-weight: bold;
+    font-size: 40px;
+  z-index: -3;
+  
+}
+
 
 .welcome-container
 {
