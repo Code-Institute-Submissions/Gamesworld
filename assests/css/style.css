@@ -52,6 +52,20 @@ margin: 0;
   
 }
 
+/*Title colour*/
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#f8f9fa; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 
 .mainbutton
 {

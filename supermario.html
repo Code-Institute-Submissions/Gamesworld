@@ -1,15 +1,18 @@
-
 <!DOCTYPE html>
-
+<html>
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gaming World</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+
+
+
 
     <link rel="stylesheet" href="assests/css/style.css" type="text/css">
 </head>
@@ -17,63 +20,76 @@
 
 
 
-    <!-- header updated to have a border on the top with gaming world text in capitials removed temporaily-->
-    <!--<header class="container">
-        <div class="row" id="header">
-            <div class="text-uppercase">
-                <h1 class="text-uppercase">Gaming World</h1>
-            </div>
-        </div-->
 
-<!--navbar work continues to try and get the nav bar displaying as required-->
 
 
 <!--header test-->
 
 <body>
-    <body style="background-color: #302547;">
-    
+    <body style="background-image:url(https://wallpaperplay.com/walls/full/5/2/1/6019.jpg)">
+<div class>
     <div class="center">
-  <h1>Gaming World</h1>
+        <a class="mainbutton" href="index.html">GAMES WORLD</a>
+      </li>
+</div>
 </div>
 
-<!-- Navigation button-->
 
-<div class="navbar">
-  <button class="button" href="#"><i class="fa fa-fw fa-home"></i> Home</button> 
 
-  <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn"><i class="fas fa-gamepad"></i> Games</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="mortalkombat11.html">Mortal Kombat 11</a>
-    <a href="supermario.html">Super Mario Maker 2</a>
-    <a href="fifa20.html">Fifa 20</a>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse topnav-centered" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-envelope"></i> News</a>
+      </li>
+
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"><i class="fas fa-gamepad"></i> Games</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="mortalkombat11.html">Mortal Kombat 11</a>
+          <a class="dropdown-item" href="fifa20.html">Fifa 20</a>
+          <a class="dropdown-item" href="supermario.html">Super Mario Maker 2</a>
+        </div>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="#"> <i class="fas fa-pencil-alt"></i> Sign Up</a>
+      </li>
+
+    </ul>
+    <!-- Links -->
   </div>
-</div>
+  <!-- Collapsible content -->
 
-            
-<button class="button" href="#"><i class="fa fa-fw fa-envelope"></i> News</button> 
+</nav>
+<!--/.Navbar-->
 
 
-    
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
-                <div class="d-none d-md-block">
-                    <div class="navbar-text my-auto mr-2">The Latest Gaming News
-                        <a href="#signupmodal"><button class="btn btn-success btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Sign Up!</button></a>
-                    </div>
-                </div>
-            </div>
-            
-            
- <div class="container-fluid mk11-title">
-  <h2>Super Mario Maker 2</h2>
+       
+<div class="container games">
+    <div class="center">
+  <h2>MORTAL KOMBAT 11</h2>
   </div>
+  <div class="container-fluid">
   <div class="row">
-    <div class="col-8">
-    <iframe width="100%" height="800" align="center" style="padding:10px;" src="https://www.youtube.com/embed/CYx9v7Mo94M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="col-sm-12 col-md-6 col-lg-8">
+    <iframe width="100%" height="100%" align="center" style="padding:2px;" src="https://www.youtube.com/embed/CYx9v7Mo94M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-    <div class="col-4">
-       <section class="mk11">
+    <div class="col-sm-12 col-md-6 col-lg-4">
         Super Mario Maker 2 allows players to build the Mario courses of their dreams!Let your imagination run wild or download courses created by other players.
         
         Be creative and use new tools, course parts and features to design and build all kinds of courses
@@ -81,24 +97,9 @@
         for you to play, letting you
         break the rules and build courses together with friends!
         </section>
+    </div>
+  </div>
 </div>
-  </div>           
-
-
-<!-- code edited to reflect the changes with the footer 
-<div class="container mk-container mt+3">
-    <h1 class="text-uppercase" id="mktitle">Mortal Kombat 11</h1>
-    <iframe width="100%" height="400" align="center" style="padding:10px; border:2px solid black;" src="https://www.youtube.com/embed/7zwQPJmg-Kg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-<div class="container mt-3">
-    <P class="mk11">
-        Mortal Kombat is back, and it’s better than ever! It’s time to continue this epic saga as you delve into the cinematic storyline developed by award-winning NetherRealm Studios. Take on a role of past and present characters in a brand-new narrative in
-        Mortal Kombat 11. This new instalment in the series introduces new multiplayer modes, iconic fatalities and an impressive roster of fighters to choose from. Including fan-favourites and new characters, you can pack a punch with one of their powerful
-        abilities and impressive fatalities.
-    </P>
-</div>
--->
 
 
 <!-- completed footer and links set up within container working correctly and displaying as required
@@ -106,7 +107,7 @@
 spacing added for the footer to move the detail away from the video clip for more vision on the detail
 -->
 <footer class="container-fluid footerbox" id="footer">
-    <div class="col">
+    <div class="col-12">
         <div class="container icons">
             <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook">
                     </i></a>
