@@ -27,9 +27,120 @@
 
 /* code that is here will apply to any screen size */
 
-.body {
-padding: 0;
-margin: 0;
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:#DDD;
+}
+
+.welcome-main
+{
+  height: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 140px;
+  font-family: Akronim;
+  font-style: bold;
+  text-align: center;
+  
+      animation: fadein 20s;
+    -moz-animation: fadein 20s; /* Firefox */
+    -webkit-animation: fadein 20s; /* Safari and Chrome */
+    -o-animation: fadein 20s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+.welcome-start
+{
+  height: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 60px;
+  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+  
+  
+}
+
+.welcome-start {
+    margin-top: 25px;
+    font-size: 100px;
+    text-align: center;
+    animation: fadein 20s;
+    -moz-animation: fadein 20s; /* Firefox */
+    -webkit-animation: fadein 20s; /* Safari and Chrome */
+    -o-animation: fadein 20s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .games
@@ -302,7 +413,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 
 /*tempory code to check scaling
-*{
+{
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
