@@ -65,7 +65,7 @@ body{
   justify-content: center;
   color:white;
   font-size: 80px;
-  font-family: Akronim;
+  font-family: Bungee Shade;
   font-style: bold;
   text-align: center;
   
@@ -116,10 +116,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  color:white;
   font-size: 80px;
   background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
-  
+  text-shadow: white;
+  color:white;
   
 }
 
@@ -188,8 +188,9 @@ body{
 /*Title colour*/
 
 a {
-    color: #0060B6;
+    color: white;
     text-decoration: none;
+    font-family: Bungee Shade;
 }
 
 a:hover 
@@ -400,6 +401,12 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   background: transparent;
   padding: 0;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 2px;
+  position: relative;
 }
 
 .footerbox i{
@@ -411,9 +418,9 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 /*footer details*/
 
-.fa.fa-facebook:before {
+.fa-facebook:before {
   padding: 5px;
-  color: #3C5898
+  color:#4267b2;
 }
 
 .fa-instagram:before {
@@ -427,6 +434,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 
 
 .fa-twitter:before {
+  color:#1dcaff;
 }
 
 .fa-youtube:before {
