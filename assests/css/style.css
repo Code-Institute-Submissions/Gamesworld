@@ -2,6 +2,11 @@
 /*background added with text for scrolling purposes and better presentation*/
 
 /* code that is here, until the first @media block, will apply to any screen size */
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -168,7 +173,6 @@ body{
 .games
 {
   background-color: transparent;
-  
 }
 
 
