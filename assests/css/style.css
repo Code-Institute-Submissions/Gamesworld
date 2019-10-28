@@ -123,7 +123,7 @@ body{
   align-items: center;
   justify-content: center;
   font-size: 50px;
-  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+  background: url("http://backgrounddownload.com/wp-content/uploads/2018/09/gaming-background-images-5.jpg") no-repeat fixed center;
   text-shadow: white;
   color:white;
   
@@ -173,14 +173,14 @@ body{
 
 .home
 {
-background: url("https://i.imgur.com/4ZBqIae.jpg") no-repeat fixed center;
+background: url("http://backgrounddownload.com/wp-content/uploads/2018/09/gaming-background-images-5.jpg") no-repeat fixed center;
 width: 10px;
 height: 20px;
 }
 
 .mainbuttohome
 {
-  background: url("https://i.imgur.com/4ZBqIae.jpg") no-repeat fixed center;
+  background: url("http://backgrounddownload.com/wp-content/uploads/2018/09/gaming-background-images-5.jpg") no-repeat fixed center;
   font-weight: bold;
   font-size: 40px;
   z-index: -3;
@@ -210,7 +210,7 @@ height: 20px;
   z-index:-1;
   font-size: 24px;
   color:white;
-  background-color: green;
+  background-color: transparent;
 }
 
 .hometitle
@@ -220,7 +220,7 @@ height: 20px;
   z-index:-1;
   font-size: 24px;
   color:white;
-  background-color: green;
+  background-color: transparent;
 }
 
 /*home title*/
@@ -275,7 +275,7 @@ a:hover
 
 .mainbutton
 {
-  background: url("https://wallpaperplay.com/walls/full/5/2/1/6019.jpg") no-repeat fixed center;
+  background: url("http://backgrounddownload.com/wp-content/uploads/2018/09/gaming-background-images-5.jpg") no-repeat fixed center;
   font-weight: bold;
   font-size: 40px;
   z-index: -3;
@@ -284,7 +284,7 @@ a:hover
   width: 100%;
   text-align: center;
   color: white;
-  font-family: Bungee Shade;
+  font-family: play;
   
 }
 
@@ -419,7 +419,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   z-index:-1;
   font-size: 24px;
   color:white;
-  background-color: #f7ad3a;
+  background-color: #f0924c;
 }
 
 .games-1
@@ -429,7 +429,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   z-index:-1;
   font-size: 24px;
   color:white;
-  background-color: #f33944;
+  background-color: #a129e4;
 }
 
 .games-2
@@ -439,7 +439,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   z-index:-1;
   font-size: 24px;
   color:white;
-  background-color: #181e40;
+  background-color: #2171ee;
 }
 
 
@@ -554,12 +554,18 @@ ul {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    color:white;
 }
 
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+.sign-up
+{
+  color: white;
 }
 
 button[type="submit"] {
