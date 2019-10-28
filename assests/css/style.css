@@ -59,7 +59,6 @@ html{
 body{
     width:100%;
     height:100%;
-    background-color:#DDD;
 }
 
 .welcome-main
@@ -170,9 +169,62 @@ body{
     }
 }
 
+.home
+{
+background: url("https://i.imgur.com/ZACvjtD.jpg") no-repeat fixed center;
+width: 10px;
+height: 20px;
+}
 
+.mainbuttohome
+{
+  background: url("https://i.imgur.com/ZACvjtD.jpg") no-repeat fixed center;
+  font-weight: bold;
+  font-size: 40px;
+  z-index: -3;
+  display:block;
+  margin:0 auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: Bungee Shade;
+  
+}
 
+.homecontent
+{
+  text-align:center;
+  color:white;
+  z-index:-1;
+  font-size: 24px;
+  color:white;
+  background-color: transparent;
+}
 
+.home-content
+{
+  text-align:center;
+  color:white;
+  z-index:-1;
+  font-size: 24px;
+  color:white;
+  background-color: green;
+}
+
+.hometitle
+{
+  text-align:center;
+  color:white;
+  z-index:-1;
+  font-size: 24px;
+  color:white;
+  background-color: green;
+}
+
+.games
+{
+  background-color: transparent;
+}
 
 /* Gaming title setting */
 
@@ -217,6 +269,10 @@ a:hover
   font-family: Bungee Shade;
   
 }
+
+
+
+
 
 .navbar .navbar-brand
 {
@@ -345,7 +401,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   z-index:-1;
   font-size: 24px;
   color:white;
-  background-color: #f33944;
+  background-color: #f7ad3a;
 }
 
 .games-1
@@ -355,8 +411,19 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   z-index:-1;
   font-size: 24px;
   color:white;
+  background-color: #f33944;
+}
+
+.games-2
+{
+  text-align:center;
+  color:white;
+  z-index:-1;
+  font-size: 24px;
+  color:white;
   background-color: #181e40;
 }
+
 
 
 
