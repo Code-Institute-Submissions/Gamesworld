@@ -170,10 +170,7 @@ body{
     }
 }
 
-.games
-{
-  background-color: transparent;
-}
+
 
 
 
@@ -345,21 +342,23 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 {
   text-align:center;
   color:white;
-
-}
-
-.games
-
-{
-    
   z-index:-1;
-}
-
-.games
-{
   font-size: 24px;
   color:white;
+  background-color: #f33944;
 }
+
+.games-1
+{
+  text-align:center;
+  color:white;
+  z-index:-1;
+  font-size: 24px;
+  color:white;
+  background-color: #181e40;
+}
+
+
 
 .footer
 {
