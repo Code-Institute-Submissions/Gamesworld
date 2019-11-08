@@ -409,37 +409,73 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 }
 
 
+.ps4
+{
+  text-align:left;
+  color:white;
+  z-index:-1;
+  font-size: 18px;
+  color:white;
+  background-color: #f0924c;
+  padding: 0.8rem;
+}
+.xboxone
+{
+  text-align:left;
+  color:white;
+  z-index:-1;
+  font-size: 18px;
+  color:white;
+  background-color: #a129e4;
+  padding: 0.8rem;
+}
+
+.nintendo
+{
+  text-align:left;
+  color:white;
+  z-index:-1;
+  font-size: 18px;
+  color:white;
+  background-color: #5bbebb;
+  padding: 0.8rem;
+}
+
 
 
 
 .games
 {
-  text-align:center;
+  text-align:left;
   color:white;
   z-index:-1;
-  font-size: 24px;
+  font-size: 18px;
   color:white;
   background-color: #f0924c;
+  padding: 0.8rem;
 }
 
 .games-1
 {
-  text-align:center;
+  text-align:left;
   color:white;
   z-index:-1;
-  font-size: 24px;
+  font-size: 18px;
   color:white;
   background-color: #a129e4;
+  padding: 0.8rem;
+  display: inline-block;
 }
 
 .games-2
 {
-  text-align:center;
+  text-align:left;
   color:white;
   z-index:-1;
-  font-size: 24px;
+  font-size: 18px;
   color:white;
   background-color: #2171ee;
+  padding: 0.8rem;
 }
 
 .games-2
@@ -452,11 +488,14 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 .games-4
 {
   background-color: #55b7c7;
-    text-align:center;
+  text-align:center;
   color:white;
   z-index:-1;
-  font-size: 24px;
+  font-size: 18px;
   color:white;
+  padding: 0.8rem;
+  display: inline-block;
+  line-height: 1.6;
 }
 
 
