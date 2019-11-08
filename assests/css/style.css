@@ -447,6 +447,13 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   width: 100%;
   height: auto;
 }
+.center
+{
+  font-weight: bold;
+  padding: 20px;
+  margin: 5px;
+  line-height: 10px;
+}
 
 
 .games
@@ -481,6 +488,19 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   color:white;
   background-color: #2171ee;
   padding: 0.8rem;
+}
+
+
+.games-3
+{
+  text-align:center;
+  color:white;
+  z-index:-1;
+  font-size: 18px;
+  color:white;
+  background-color: #fe0031;
+  padding: 0.8rem;
+  padding-top: 10px;
 }
 
 .games-2
