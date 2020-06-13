@@ -417,14 +417,25 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   width: 100%;
   height: auto;
 }
-.center
+.center .center-games .center-consoles
 {
   font-weight: bold;
   padding: 20px;
   margin: 5px;
   line-height: 10px;
 }
-
+.Home1
+{
+  text-align:left;
+  color:white;
+  z-index:-1;
+  font-size: 18px;
+  color:white;
+  background-color: #9a5bbe;
+  padding: 0.8rem;
+  align: center;
+  text-align: center;
+}
 
 .games 
 {
