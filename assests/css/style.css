@@ -50,6 +50,8 @@ html {
   }
 }
 
+
+
 /* code that is here will apply to any screen size */
 
 html{
@@ -62,6 +64,14 @@ body{
     height:100%;
 }
 
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
 
 .welcome-main
 {
@@ -424,6 +434,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   margin: 5px;
   line-height: 10px;
 }
+
 .Home1
 {
   color:white;
@@ -434,15 +445,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   align: center;
   text-align: center;
 }
-
-.img
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
 
 .games 
 {
