@@ -1,15 +1,12 @@
 
 /*background added with text for scrolling purposes and better presentation*/
 
-/* code that is here, until the first @media block, will apply to any screen size */
+/*code that is here, until the first @media block, will apply to any screen size*/
 
 html {
   scroll-behavior: smooth;
 }
 
-* {
-  box-sizing: border-box;
-}
 .menu {
   float: left;
   width: 20%;
@@ -73,22 +70,13 @@ body{
 
 .welcome-main
 {
-  height: center;
   display: flex;
   align-items: center;
   justify-content: center;
   color:white;
   font-size: 50px;
   font-family: Bungee Shade;
-  font-style: bold;
   text-align: center;
-  
-
-  
-      animation: fadein 20s;
-    -moz-animation: fadein 20s; /* Firefox */
-    -webkit-animation: fadein 20s; /* Safari and Chrome */
-    -o-animation: fadein 20s; /* Opera */
 }
 @keyframes fadein {
     from {
@@ -126,15 +114,12 @@ body{
 
 .welcome-start
 {
-  height: center;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 50px;
   background: url("http://backgrounddownload.com/wp-content/uploads/2018/09/gaming-background-images-5.jpg") no-repeat fixed center;
-  text-shadow: white;
   color:white;
-  
 }
 
 .welcome-start {
@@ -450,7 +435,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   font-size: 18px;
   background-color: #9a5bbe;
   padding: 0.8rem;
-  align: center;
   text-align: center;
 }
 
@@ -567,7 +551,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   padding:5px;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
