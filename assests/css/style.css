@@ -232,7 +232,7 @@ height: 20px;
 }
 
 p.blackOutline {
-    background: black;
+    background:black;
     opacity: 1.1;
     width: auto;
 }
@@ -624,11 +624,11 @@ ul {
   color: white;
 }
 
-button[type="submit"] {
+.btn-secondary {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: black;
 }
 
 /* ----------------------------------------Media Queries */
