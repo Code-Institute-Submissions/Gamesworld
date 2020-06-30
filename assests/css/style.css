@@ -231,6 +231,18 @@ height: 20px;
   
 }
 
+p.blackOutline {
+    background: black;
+    opacity: 1.1;
+    width: auto;
+}
+
+.collapse
+{
+    background: black;
+    opacity: 1.1;
+    width: auto;
+}
 
 .games
 {
@@ -256,6 +268,7 @@ a {
     color: white;
     text-decoration: none;
     font-family: play;
+    
 }
 
 a:hover 
@@ -412,7 +425,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   border-radius: 16px;
 }
 
-/*console design*/
 
 
 /*responsive image*/
@@ -472,6 +484,17 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   padding: 0.8rem;
 }
 
+.console
+{
+  text-align:left;
+  color:white;
+  z-index:-1;
+  font-size: 18px;
+  color:white;
+  background-color: #a129e4;
+  padding: 0.8rem;
+}
+
 .home-image, .img-responsive
 {
     padding:10px
@@ -486,6 +509,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 {
   position: absolute;
   font-weight: bold;
+  padding:2.4rem;
 }
 
 /*.block-divider--short {
@@ -501,9 +525,6 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-
-
 
 /*alert - text amends and display including features*/
 
@@ -542,6 +563,9 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   line-height: 40px;
 }
 
+.icons {
+    padding: 2.4rem;
+}
 
 /*footer details*/
 
