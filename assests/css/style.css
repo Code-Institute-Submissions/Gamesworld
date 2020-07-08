@@ -235,7 +235,7 @@ height: 20px;
   
 }
 
-p.blackOutline {
+.blackOutline {
     background:black;
     opacity: 1.1;
     width: auto;
