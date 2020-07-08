@@ -3,6 +3,8 @@
 
 /*code that is here, until the first @media block, will apply to any screen size*/
 
+font-family: play;
+
 html {
   scroll-behavior: smooth;
 }
@@ -64,6 +66,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  font-family: play;
 
 }
 
@@ -75,7 +78,7 @@ body{
   justify-content: center;
   color:white;
   font-size: 50px;
-  font-family: Bungee Shade;
+  font-family: play;
   text-align: center;
 }
 @keyframes fadein {
@@ -182,7 +185,7 @@ height: 20px;
   width: 100%;
   text-align: center;
   color: white;
-  font-family: Bungee Shade;
+  font-family: play;
   
 }
 
@@ -214,6 +217,7 @@ height: 20px;
   font-size: 24px;
   color:white;
   background-color: transparent;
+  font-family: play;
 }
 
 /*home title*/
@@ -235,6 +239,7 @@ p.blackOutline {
     background:black;
     opacity: 1.1;
     width: auto;
+    font-family: play;
 }
 
 .collapse
@@ -247,6 +252,7 @@ p.blackOutline {
 .games
 {
   background-color: transparent;
+
 }
 
 /* Gaming title setting */
@@ -259,6 +265,7 @@ p.blackOutline {
   display:block;
   margin:0 auto;
   width: 100%;
+  font-family: play;
   
 }
 
@@ -276,6 +283,7 @@ a:hover
      color:#f8f9fa; 
      text-decoration:none; 
      cursor:pointer;  
+     font-family: play;
 }
 
 
@@ -300,6 +308,7 @@ color: white;
 font-weight: bold;
   font-size: 40px;
   z-index: -3;
+  font-family: play;
 }
 
 .nav-link
@@ -308,6 +317,7 @@ font-weight: bold;
   font-weight: bold;
     font-size: 40px;
   z-index: -3;
+  font-family: play;
   
 }
 
@@ -333,16 +343,19 @@ font-weight: bold;
     margin:0 auto;
     display: block;
     text-align: center;
+    font-family: play;
     
 }
 
 .navbar-nav > li {
     display: inline-block;
     float:none;
+    font-family: play;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #f8f9fa;
+    font-family: play;
     
 }
 
@@ -402,12 +415,13 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+  font-family: play;
 }
 
 
 .news-content
 {
-  font-family: Bungee Shade;
+  font-family: play;
 }
 
 
@@ -449,6 +463,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   background-color: #9a5bbe;
   padding: 0.8rem;
   text-align: center;
+  font-family: play;
 }
 
 .games 
@@ -460,6 +475,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   color:white;
   background-color: #5bbebb;
   padding: 0.8rem;
+  font-family: play;
 }
 
 .news
@@ -471,6 +487,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   color:white;
   background-color: #f0924c;
   padding: 0.8rem;
+  font-family: play;
 }
 
 .console
@@ -482,18 +499,9 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
   color:white;
   background-color: #a129e4;
   padding: 0.8rem;
+  font-family: play;
 }
 
-.console
-{
-  text-align:left;
-  color:white;
-  z-index:-1;
-  font-size: 18px;
-  color:white;
-  background-color: #a129e4;
-  padding: 0.8rem;
-}
 
 .home-image, .img-responsive
 {
@@ -619,16 +627,22 @@ ul {
     max-width: 70%;
 }
 
-.sign-up
-{
-  color: white;
-}
 
 .btn-secondary {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color: black;
+    font-size: 18px;
+    font-family: play;
+}
+
+.bg-color-contact
+{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: play;
 }
 
 /* ----------------------------------------Media Queries */
@@ -636,7 +650,6 @@ ul {
 @media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
-        min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
     }
