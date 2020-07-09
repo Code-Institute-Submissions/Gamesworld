@@ -83,9 +83,9 @@ I aligned the information on the games with the video believing having a clip of
 I decided the most professional tool to design my website would be Balsamiq frameworks. This would indicate how the website is to be reflected once it has been completed. It would give an idea to how I would like the site to be displayed for the users very easy to use an navigate.
 Each page will have its own colour theme to separate them from each other to make it easy to know it’s a different area of the website each time. Below I have provided a basic indication how Id like the website to be not to complex just simple easy to use, clean and clear.
 
-![Design1](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%202.png)
+![Design1](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image2.png)
 
-![Design2](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%203.png)
+![Design2](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image3.png)
 
 ![Design3](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%204.png)
 
