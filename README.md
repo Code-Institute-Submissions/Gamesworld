@@ -130,7 +130,7 @@ Each page will have its own colour theme to separate them from each other to mak
 
 ![mainpage](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image10.png)
 
-![mainpage](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image11.png)
+![newsmain](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image11.png)
 
 ### Wireframe Amends – Footer Section
 * The media feeds lead to the social feeds as required until social media platforms for the website are made, they just direct to their correct destinations. Small logos were used and used the back ground to blend in and suit the website theme better.
