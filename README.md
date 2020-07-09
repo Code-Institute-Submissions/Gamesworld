@@ -1,16 +1,27 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tomod24/Gamesworld) 
 
-# Gaming World Project 
+# Games World Project
 ## Stream One 
 # Project: User-Centric Frontend Development - Code Institute
 
 
 ### Introduction
-This is my gaming website for all users interested in gaming or who enjoy gaming. The webpage shows my skills in creating a website design, adding material such as information, features, videos, additional features such as interactive headers and footers. A have attached a link below to the webpage for viewing purposes.
-Gaming World - https://tomod24.github.io/Gamesworld/
+The website created is a for gamers and people interested in gaming. It’s a source of knowledge and provides clips to help indicate what the games is about and a background of the game. The aim is for anyone interested in gaming and wants to know more about the latest products in gaming. New releases, coming soon, current games and console information will benefit from the website.
+
+*	New games being released
+* Trailers of new games and information about the game
+* Information about the current consoles and some background information
+
+By bringing gamers together it’s an easy resource for gamers to use daily, weekly, monthly or yearly for the latest information on gaming around without searching various sources for the information they desire. This way they can keep up the latest games and previous games that have been mentioned.
 
 ### UX
 My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist design. The greyscale color scheme was selected to create a sleek and modern feel. I used a color, which I thought would get the users attention instantly and based the colors on the page on the background I selected. I originally wanted to use orange, black and white but did not think it stood out as much. This is a hobby and interest of mine, which made it interesting and was good to test my skills and make interactive but simple to use for others. I will provide by github information for all the information supplied and used when completed the design. I have used text relevant to the page and users which would be worthy of the page their viewing. Wireframes attached to the projects.
+
+
+
+
+
+
 
 ### Technologies Used
 1.	HTML
