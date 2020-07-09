@@ -7,7 +7,7 @@
 ![Title Image](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%201.png)
 
 ## Introduction
-The website created is a for gamers and people interested in gaming. It’s a source of knowledge and provides clips to help indicate what the games is about and a background of the game. The aim is for anyone interested in gaming and wants to know more about the latest products in gaming. New releases, coming soon, current games and console information will benefit from the website.
+The website created is a for gamers and people interested in gaming. It’s a source of knowledge and provides clips to help indicate what the games is about and a background of the game. The aim is for anyone interested in gaming and wants to know more about the latest products in gaming. New releases, coming soon, current games and console information will benefit from the website. https://tomod24.github.io/Gamesworld/
 
 *	New games being released
 * Trailers of new games and information about the game
