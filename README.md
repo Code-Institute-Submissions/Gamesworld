@@ -160,7 +160,16 @@ For the website the following programming languages have been used HTML, CSS and
 * I checked both mobile and desktop versions worked correctly displaying all the pages. Media alert works correctly providing a link direct to the media page only on the home page and media page. 
 * The sign-up button brings up a pop up but does not link the information anywhere just for testing purposes with the site. 
 * All the pages link to together and divert to the correct site. E.g. clicking the games on the welcome page take you to the correct web page for information.
-* The websites have been tested on various phone types and internet explorer pages. (Chrome, Safari, Internet Explorer, Firefox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
+* The websites have been tested on various phone types and internet explorer pages. 
+
+| Browser  | Portable Device  |
+|---|---|
+| Chrome  | iPhone Models |
+| Safari  | Mobile Chrome  |
+| Internet Explorer  | Ipads  |
+| Firefox  | Samsung Tablets  |
+
+(Chrome, Safari, Internet Explorer, Firefox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
 * During the setup I realized the mobile version had a column on the right-hand side this was resolved due to unclosed rows, duplicate code and also amended any columns necessary.
 * Sign up button which has been confirmed to be improved
 
