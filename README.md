@@ -162,19 +162,14 @@ For the website the following programming languages have been used HTML, CSS and
 * All the pages link to together and divert to the correct site. E.g. clicking the games on the welcome page take you to the correct web page for information.
 * The websites have been tested on various phone types and internet explorer pages. This is to ensure compatibility and responsiveness. 
 
-|Browser|Portable Device|
-|---|---|
-| Chrome  | iPhone Models |
-| Safari  | Mobile Chrome  |
-| Internet Explorer  | Ipads  |
-| Firefox  | Samsung Tablets  |
 
-| Browser  |Portable Device   |
+
+| Browser |Portable Device |
 |:-:|:-:|
-| Chrome    | iPhone Models   |
-| Safari   | Mobile Chrome   |
-|Internet Explorer   | Ipads   |
-|Firefox  | Samsung Tablets  |
+| Chrome | iPhone Models |
+| Safari | Mobile Chrome |
+|Internet Explorer | Ipads |
+|Firefox | Samsung Tablets |
 
  
 * During the setup I realized the mobile version had a column on the right-hand side this was resolved due to unclosed rows, duplicate code and also amended any columns necessary.
