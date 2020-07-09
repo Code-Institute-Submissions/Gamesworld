@@ -87,9 +87,9 @@ Each page will have its own colour theme to separate them from each other to mak
 
 ![Design2](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image3.png)
 
-![Design3](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%204.png)
+![Design3](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image4.png)
 
-![Design4](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%205.png)
+![Design4](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image5.png)
 
 ## Features
 
@@ -99,7 +99,7 @@ Each page will have its own colour theme to separate them from each other to mak
 * Originally the website had a fade in idea for the background and website on the welcome page as much as it was a good idea first. It didn’t serve a purpose. Instead of the user being impacted by the design and set up they had to wait for it. As I wanted the website to be simple, I decided to remove the intro and have the page appear as you see below.
 * I believe the website set up in this manner appearing from the start instantly was a lot better had more impact than the website fading in. Therefore, the fade in was remove but coding left to show what was originally attempted.
  
-![Final Title](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%206.png)
+![Final Title](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image6.png)
 
 ### Wireframe Amends Home Page
 * The main title was displayed in the middle of the page for the impact and the additional content on the main page was moved downwards away from the main title.
@@ -113,11 +113,11 @@ Each page will have its own colour theme to separate them from each other to mak
 * The correct amount of spacing was supplied on the content idea so it was clean website which could be used very easy. The videos could be played when required and the information would be clearly readable. 
 * The user could simply scroll through the games they would have interested in have a read watch a preview and enjoy what information they have seen on the webpage. With the theme keeping to the same colour aspect for that particular section of the website e.g. news, games and console. Including the home page having its own colour theme.
 
-![news](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%207.png)
+![news](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image7.png)
 
-![games](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%208.png)
+![games](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image8.png)
 
-![console](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%209.png)
+![console](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image9.png)
 
 ### Wireframe Amends – Content Section
 * The colour scheme being selected correctly as I wanted the themes on each page to be different. I tried the same colour for each section and the impact wasn’t as good.
@@ -128,9 +128,9 @@ Each page will have its own colour theme to separate them from each other to mak
 * The footer I wanted to be links to the main social media feeds as required. The links and images weren’t to be too bulky. I just wanted them to be neat and tidy on the website.
 * On the home page there is a sign-up button for more information and on the other page’s news, games and console the link is just to the social media feed.
 
-![mainpage](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%210.png)
+![mainpage](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image10.png)
 
-![mainpage](https://github.com/tomod24/Gamesworld/blob/master/Documentation/Image%211.png)
+![mainpage](https://github.com/tomod24/Gamesworld/blob/master/Documentation/image11.png)
 
 ### Wireframe Amends – Footer Section
 * The media feeds lead to the social feeds as required until social media platforms for the website are made, they just direct to their correct destinations. Small logos were used and used the back ground to blend in and suit the website theme better.
