@@ -12,20 +12,20 @@ The website created is a for gamers and people interested in gaming. It’s a so
 * Trailers of new games and information about the game
 * Information about the current consoles and some background information
 
-## Business objectives
+### Business objectives
 
 * Enhancing new products in the gaming industry and providing information for users to process and appeal to their interest in that gaming genre.
 * Highlighting games that gamers would be interested in and diverting them to potential websites that sell the games. This could be commercial or advertising purposes or       partnering with different companies.
 * Building a new platform for gamers to enjoy and revisit again and for more and more information when necessary.
 
-## Goals for the Users/Gamers:
+### Goals for the Users/Gamers:
 
 * Latest gaming news for their information and some content for their viewing pleasure.
 * To make it easy and convenient for them instead of searching various sites for information. Direct information about games coming out soon, currently out and the consoles available.
 
 ## UX
 
-## Ideal User
+### Ideal User
 
 ### Users visiting my website would be:
 
