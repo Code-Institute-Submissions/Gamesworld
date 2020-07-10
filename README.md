@@ -1,6 +1,6 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tomod24/Gamesworld) 
 
-# Games World Project
+# Games World
 ## Stream One 
 ## Project: User-Centric Frontend Development - Code Institute
 
